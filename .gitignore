@@ -1,0 +1,15 @@
+node_modules
+# jest coverage report, can be generated individually by yarn jest --coverage & open directly in browser html
+coverage
+
+.env
+/yarn-error.log
+
+#  not using Zero-Installs
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

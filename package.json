@@ -1,0 +1,25 @@
+{
+  "name": "demo-for-xlsx-sms",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Demo by TechKet for William's automation on xlsx & sms project",
+  "scripts": {
+    "main": "ts-node ./main.ts"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1561.0",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "xlsx": "^0.18.5"
+  },
+  "author": "TechKet - Dragon Lung",
+  "license": "MIT",
+  "packageManager": "yarn@1.22.19",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^20.11.19"
+  }
+}
